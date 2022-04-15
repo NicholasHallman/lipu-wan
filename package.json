@@ -1,0 +1,17 @@
+{
+  "name": "lipu-wan",
+  "version": "0.0.1",
+  "description": "A component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --app-index demo/index.html --open --watch"
+  },
+  "author": "nicholashallman",
+  "license": "MIT",
+  "dependencies": {
+    "@web/dev-server": "^0.1.30",
+    "lipu-wan-tomo": "^0.0.17",
+    "lit": "^2.2.2"
+  }
+}
